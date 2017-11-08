@@ -30,6 +30,7 @@ shinyUI(pageWithSidebar(
                                 p('- mortgage amount'),
                                 p('- annual interest rate'),
                                 p('- ammortization period in year'),
+                                p('Click Run to execute the calculation'),
                                 p('Use Time Value of Money (TVM) package to calculate paymets (divided by twelve to get monthly payments)'),
                                 p('Use "formatC" function to limit the output to two decimal places')
                                 ))
